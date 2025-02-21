@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            text-align: center;
+        }
+        .menu-container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .category {
+            margin-top: 20px;
+        }
+        .category h2 {
+            background: #ff6347;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+        .price {
+            color: #ff6347;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu-container">
+        <h1>Restaurant Menu</h1>
+        
+        <div class="category">
+            <h2>Starters</h2>
+            <div class="menu-item"><span>Tomato Soup</span><span class="price">RS.250</span></div>
+            <div class="menu-item"><span>Grill chicken</span><span class="price">RS.450</span></div>
+            <div class="menu-item"><span>Butter chicken</span><span class="price">RS.280</span></div>
+        </div>
+        
+        <div class="category">
+            <h2>Main Course</h2>
+            <div class="menu-item"><span>Chicken Biriyani</span><span class="price">Rs.250</span></div>
+            <div class="menu-item"><span>Mutton Biriyani</span><span class="price">Rs.400</span></div>
+            <div class="menu-item"><span>Pasta Alfredo</span><span class="price">RS.270</span></div>
+        </div>
+        
+        <div class="category">
+            <h2>Desserts</h2>
+            <div class="menu-item"><span>Chocolate Cake</span><span class="price">Rs.370</span></div>
+            <div class="menu-item"><span>Ice Cream</span><span class="price">Rs.100</span></div>
+            <div class="menu-item"><span>Milk shake</span><span class="price">Rs.100</span></div>
+        </div>
+    </div>
+</body>
+</html>
